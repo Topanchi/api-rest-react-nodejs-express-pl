@@ -1,0 +1,39 @@
+{
+  "name": "api-rest-react-nodejs-express-pl",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Topanchi/api-rest-react-nodejs-express-pl.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "postgresql",
+    "rest",
+    "api"
+  ],
+  "author": "Francisco Fuentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Topanchi/api-rest-react-nodejs-express-pl/issues"
+  },
+  "homepage": "https://github.com/Topanchi/api-rest-react-nodejs-express-pl#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
